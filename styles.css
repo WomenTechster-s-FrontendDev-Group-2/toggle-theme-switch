@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
 *{
   box-sizing: border-box;
@@ -11,19 +11,19 @@ body{
   height: 100vh;
   margin: 0;
   transition: 1s ease;
-  background-color: yellow;
+  background-color: #ebe0d0;
 }
 
 body.moon{
-  background-color: orange;
+  background-color: #A49393;
 }
 
 .label{
-  border: 2px solid black;
+  border: 2px solid #67595E;
   width: 4em;
   height: 2em;
   display: flex;
-  background-color: black;
+  background-color: #67595E;
   border-radius: 50px;
   align-items: center;
   justify-content: space-between;
@@ -33,15 +33,15 @@ body.moon{
 }
 
 .bxs-moon{
-  color: orange;
+  color: #E8B4B8;
 }
 
 .bxs-sun{
-  color: yellow;
+  color: #FF0080;
 }
 
 .cover{
-  background-color: orange;
+  background-color: #FF0080;
   height: 20px;
   width: 20px;
   position: absolute;
@@ -63,7 +63,7 @@ body.moon{
 }
 
 .checkbox:checked + .label .cover{
-  background-color: yellow;
+  background-color: #e8b4e8;
   transform: translate(36px);
 }
 
